@@ -19,16 +19,32 @@ nav {
 }
 
 
+.topbar {
+display: inline-block;
+
+}
+
 .title{
   text-align: center;
+  display: inline-block;
+  margin-left: 56px;
+
 }
 
-.topbar{
+.chevron{
   display: inline-block;
+  padding: 12px 4px 0 16px;
 }
+/*
+.back{
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}*/
+
+
 
 .form-box{
-  text-align: center;
 }
 .search-field{
   width: 90%;
@@ -68,4 +84,15 @@ h3{
   font-size: 16px;
   font-family: 'Roboto light';
   margin: 5px 0 18px 0;
+}
+
+.frequency{
+  font-size: 80%;
+  float: right;
+  padding: 4px 4px 4px 4px;
+  background-color: #D0021B;
+}
+
+.busnumber:hover{
+  opacity: 0.25;
 }
